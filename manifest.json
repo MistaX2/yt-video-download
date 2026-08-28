@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Cookie Downloader",
+  "version": "1.1",
+  "permissions": ["cookies", "tabs"],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "https://youtu.be/*",
+    "http://127.0.0.1:200/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
