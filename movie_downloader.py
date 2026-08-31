@@ -12,7 +12,7 @@ from urllib.parse import quote
 import requests
 
 
-BASE_URL = "http://movie.mrxpro.eu.cc:8080"
+BASE_URL = "http://movie.cloud.eu.cc:8080"
 DEFAULT_PROXY_URL = "http://127.0.0.1:10808"
 DISK_CACHE_SIZE = 1024 * 1024
 DEFAULT_WORKERS = 1
